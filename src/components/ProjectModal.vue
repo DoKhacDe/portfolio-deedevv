@@ -1,5 +1,5 @@
 <script setup>
-import { X } from 'lucide-vue-next'
+import { ExternalLink, X } from 'lucide-vue-next'
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { accentClasses } from '../data/projects'
 import ProjectImageFrame from './ProjectImageFrame.vue'
@@ -111,6 +111,17 @@ onUnmounted(() => {
 
             <div>
               <p class="text-base leading-8 text-slate-700 dark:text-slate-300">{{ project.detail }}</p>
+
+              <a
+                v-if="project.website"
+                :href="project.website"
+                target="_blank"
+                rel="noreferrer"
+                class="mt-5 inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sm font-black text-slate-950 transition hover:border-slate-950 hover:bg-slate-950 hover:text-white dark:border-white/10 dark:text-white dark:hover:border-white dark:hover:bg-white dark:hover:text-ink-950"
+              >
+                Xem website
+                <ExternalLink class="h-4 w-4" />
+              </a>
 
               <div class="mt-6 grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
                 <div

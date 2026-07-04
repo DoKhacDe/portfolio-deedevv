@@ -76,11 +76,10 @@ const metrics = [
                 <div
                   v-for="metric in metrics"
                   :key="metric.label"
-                  style="color:#000 !important;"
-                  class="rounded-md border border-white/20 text-black bg-ink-950/55 p-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.14)]"
+                  class="rounded-md border border-white/20 bg-ink-950/55 p-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.14)]"
                 >
-                  <p class="text-3xl font-black !text-black drop-shadow-[0_2px_10px_rgba(0,0,0,0.75)]">{{ metric.value }}</p>
-                  <p class="mt-1 text-xs font-bold !text-black drop-shadow-[0_1px_6px_rgba(0,0,0,0.75)]">{{ metric.label }}</p>
+                  <p class="text-3xl font-black drop-shadow-[0_2px_10px_rgba(0,0,0,0.75)]">{{ metric.value }}</p>
+                  <p class="mt-1 text-xs font-bold drop-shadow-[0_1px_6px_rgba(0,0,0,0.75)]">{{ metric.label }}</p>
                 </div>
               </div>
 
