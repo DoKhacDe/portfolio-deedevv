@@ -4,9 +4,9 @@ export const projects = [
     name: 'Insurlink',
     label: 'Nền tảng bán bảo hiểm',
     description:
-      'Nền tảng e-commerce bán bảo hiểm giúp hơn 1.000 cộng tác viên bán sản phẩm từ 8 đối tác như Bảo Việt, MIC, Liberty, PVI.',
+      'Hệ thống thương mại điện tử bảo hiểm toàn diện, hỗ trợ mạng lưới hơn 1.000 cộng tác viên kết nối với các đối tác lớn như Bảo Việt, MIC, PVI.',
     detail:
-      'Sản phẩm đã xử lý hơn 18.000 hợp đồng, bao phủ quy trình từ cấu hình sản phẩm, báo giá, đơn hàng, hợp đồng đến vận hành cộng tác viên. Vai trò: sole maintainer, sở hữu và maintain end-to-end.',
+      'Trực tiếp phát triển và vận hành toàn bộ vòng đời sản phẩm, từ khâu báo giá, phát hành hợp đồng đến quản lý dòng tiền. Đã xử lý thành công hơn 18.000 giao dịch thực tế.',
     tech: ['Laravel', 'Filament', 'Livewire', 'MySQL', 'TailwindCSS'],
     stats: ['1.000+ CTV', '18.000+ hợp đồng', '8 đối tác'],
     website: 'https://insurlink.vn/',
@@ -18,9 +18,9 @@ export const projects = [
     name: 'Insurlink Pro',
     label: 'Ứng dụng di động',
     description:
-      'Ứng dụng di động cho cộng tác viên quản lý sản phẩm, báo giá và theo dõi hoa hồng ngay trên điện thoại.',
+      'Giải pháp quản lý kinh doanh di động dành cho cộng tác viên, giúp tối ưu hóa quy trình báo giá và theo dõi doanh thu mọi lúc mọi nơi.',
     detail:
-      'Ứng dụng kết nối API từ hệ sinh thái Insurlink, tối ưu trải nghiệm thao tác nhanh cho cộng tác viên và giúp đội vận hành theo dõi hiệu suất bán hàng linh hoạt hơn.',
+      'Đóng vai trò cầu nối di động trong hệ sinh thái Insurlink, ứng dụng tập trung vào trải nghiệm người dùng mượt mà, đồng bộ dữ liệu thời gian thực qua hệ thống API riêng biệt.',
     tech: ['Laravel', 'RESTful API', 'MySQL', 'React Native', 'Expo'],
     stats: ['Ưu tiên mobile', 'Kết nối API', 'Cập nhật realtime'],
     accent: 'coral',
@@ -31,9 +31,9 @@ export const projects = [
     name: 'Insurbot',
     label: 'Chatbot AI',
     description:
-      'Chatbot AI dựa trên RAG, hỗ trợ tư vấn sản phẩm bảo hiểm, tính phí và trả lời tương tác theo thời gian thực.',
+      'Trợ lý ảo thông minh ứng dụng công nghệ RAG, chuyên sâu về tư vấn nghiệp vụ bảo hiểm và hỗ trợ khách hàng tự động.',
     detail:
-      'Kết hợp dữ liệu sản phẩm, luồng tư vấn và OpenAI để tạo trải nghiệm hỏi đáp có ngữ cảnh. Hệ thống có WebSocket cho phản hồi realtime và nền quản trị để kiểm soát nguồn tri thức.',
+      'Xây dựng hệ thống hỏi đáp thông minh dựa trên dữ liệu đặc thù của ngành bảo hiểm. Tích hợp OpenAI và kỹ thuật xử lý ngôn ngữ tự nhiên để đưa ra phản hồi chính xác, có ngữ cảnh và mang tính cá nhân hóa.',
     tech: ['Laravel', 'Filament', 'Vue.js', 'WebSocket', 'OpenAI', 'PostgreSQL', 'RAG', 'Python'],
     stats: ['Luồng RAG', 'Chat realtime', 'Kho tri thức'],
     website: 'https://insurbot.deedevv.uk/',
@@ -45,9 +45,9 @@ export const projects = [
     name: 'MailCook',
     label: 'Tự động hóa email marketing',
     description:
-      'Nền tảng tự động hóa email marketing quy mô lớn, chạy trên hơn 7.300 domain và hỗ trợ flow automation linh hoạt.',
+      'Hệ thống tự động hóa marketing quy mô lớn, vận hành ổn định trên mạng lưới hơn 7.300 tên miền với khả năng cá nhân hóa chiến dịch cao.',
     detail:
-      'Tự xây dựng toàn bộ một mình, từ hạ tầng gửi mail, automation flow, queue, domain scaling, tích hợp AWS SES, Cloudflare và các lớp hỗ trợ AI cho chiến dịch.',
+      'Một mình thiết kế và triển khai toàn bộ hạ tầng kỹ thuật phức tạp, từ cơ chế gửi mail tốc độ cao, quản lý hàng đợi đến việc tích hợp AI để tối ưu hóa nội dung chiến dịch marketing.',
     tech: ['Laravel', 'Filament', 'MySQL', 'Horizon', 'AWS SES', 'Mailcoach', 'Cloudflare', 'OpenAI'],
     stats: ['7.300+ domain', 'Flow linh hoạt', 'Tự xây dựng'],
     accent: 'gold',
@@ -58,9 +58,9 @@ export const projects = [
     name: 'Maiden',
     label: 'Phân tích xu hướng',
     description:
-      'Công cụ tổng hợp và tra cứu hot keyword theo game, anime, music event, movie và nhiều lĩnh vực khác.',
+      'Công cụ phân tích xu hướng tìm kiếm và nắm bắt thị hiếu người dùng trong các lĩnh vực giải trí, trò chơi và sự kiện.',
     detail:
-      'Tự động lấy dữ liệu từ Serper API để phân tích xu hướng tìm kiếm, giúp content creator và marketer nắm bắt trend nhanh, có cơ sở để lên nội dung đúng thời điểm.',
+      'Tối ưu hóa quy trình khai thác dữ liệu từ Serper API để cung cấp những hiểu biết sâu sắc về thị trường, giúp những người làm nội dung đưa ra quyết định dựa trên số liệu thực tế.',
     tech: ['PHP/Laravel','Filament', 'Serper API', 'Crawler', 'Data processing'],
     stats: ['Đa lĩnh vực', 'Insight tìm kiếm', 'Bắt trend nhanh'],
     accent: 'coral',
@@ -71,9 +71,9 @@ export const projects = [
     name: 'Listen Together',
     label: 'Phòng nghe realtime',
     description:
-      'Không gian nghe nhạc, nghe truyện và trò chuyện cùng nhau theo thời gian thực với nguồn nội dung từ YouTube.',
+      'Nền tảng giải trí trực tuyến cho phép người dùng kết nối, nghe nhạc và trò chuyện cùng nhau trong không gian số chung.',
     detail:
-      'Dự án cá nhân tập trung vào trải nghiệm phòng nghe chung: đồng bộ phát nhạc/video giữa nhiều người dùng, chat trực tiếp và trạng thái phòng theo thời gian thực.',
+      'Tập trung vào tính kết nối và đồng bộ hóa tuyệt đối. Dự án giải quyết bài toán đồng bộ phát đa phương tiện và tương tác thời gian thực giữa hàng trăm người dùng trong cùng một phòng.',
     tech: ['Vue.js', 'Realtime sync', 'YouTube API', 'Chat room'],
     stats: ['Phòng nghe chung', 'Chat trực tiếp', 'Đồng bộ phát'],
     website: 'https://listen-together.deedevv.uk/',
@@ -85,9 +85,9 @@ export const projects = [
     name: 'BvLink',
     label: 'Hệ thống vận hành đối tác',
     description:
-      'Hệ thống quản lý đơn hàng, hợp đồng và cộng tác viên dành riêng cho đối tác Bảo Việt.',
+      'Cổng quản lý vận hành dành riêng cho đối tác chiến lược, tập trung vào việc số hóa quy trình kinh doanh và quản lý nhân sự.',
     detail:
-      'Công cụ vận hành giúp đối tác theo dõi hoạt động kinh doanh bảo hiểm, quản lý đơn hàng, hợp đồng và đội ngũ cộng tác viên trong một hệ thống tập trung.',
+      'Cung cấp một hệ sinh thái quản trị tập trung, giúp đối tác theo dõi sát sao từng biến động của đơn hàng và hiệu suất của đội ngũ cộng tác viên một cách minh bạch, hiệu quả.',
     tech: ['Laravel','Filament', 'Livewire', 'MySQL'],
     stats: ['Quản lý đơn', 'Theo dõi hợp đồng', 'Cổng đối tác'],
     website: 'https://bvlink.vn/',

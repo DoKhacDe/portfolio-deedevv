@@ -6,19 +6,19 @@ const experiences = [
     company: 'TDA Global',
     role: 'Backend/Fullstack Developer',
     period: 'Hiện tại',
-    description: 'Sở hữu và maintain nhiều sản phẩm end-to-end, bao gồm bảo hiểm, automation, AI chatbot và mobile app.',
+    description: 'Chủ trì phát triển và duy trì hệ sinh thái sản phẩm đa dạng từ thương mại điện tử bảo hiểm, hệ thống tự động hóa đến các giải pháp AI tiên tiến.',
   },
   {
     company: 'BH Media',
     role: 'Fullstack Developer',
     period: 'Giai đoạn phát triển',
-    description: 'Tham gia phát triển hệ thống nội dung, vận hành backend và tối ưu trải nghiệm quản trị.',
+    description: 'Đóng góp vào việc tối ưu hóa hệ thống quản lý nội dung và nâng cao hiệu suất vận hành backend cho các nền tảng truyền thông.',
   },
   {
     company: 'EGLIFE JSC',
     role: 'Web Developer',
     period: 'Giai đoạn khởi đầu',
-    description: 'Xây nền tảng kỹ thuật web, làm quen quy trình sản phẩm và phát triển các module thực tế.',
+    description: 'Xây dựng nền tảng kỹ thuật vững chắc thông qua việc phát triển các ứng dụng web thực tế và làm quen với quy trình sản xuất phần mềm chuyên nghiệp.',
   },
 ]
 </script>
@@ -27,7 +27,7 @@ const experiences = [
   <section id="experience" class="section-shell scroll-mt-24 py-20">
     <div class="reveal">
       <p class="section-kicker">Kinh nghiệm</p>
-      <h2 class="section-title">Hành trình làm sản phẩm qua từng giai đoạn.</h2>
+      <h2 class="section-title">Hành trình kiến tạo và phát triển sản phẩm.</h2>
     </div>
 
     <div class="relative mt-10">

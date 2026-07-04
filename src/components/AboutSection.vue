@@ -19,32 +19,32 @@ const skills = [
   <section id="about" class="section-shell scroll-mt-24 py-20">
     <div class="reveal">
       <p class="section-kicker">Giới thiệu</p>
-      <h2 class="section-title">Developer có tư duy sở hữu sản phẩm.</h2>
+      <h2 class="section-title">Product-minded Engineer: Không chỉ viết code, tôi xây dựng giá trị.</h2>
       <p class="section-copy">
-        Tôi tập trung vào các hệ thống cần sự bền bỉ: backend rõ ràng, frontend dễ dùng, mobile app gọn luồng và hạ tầng đủ chắc để chịu tải thật. Điểm mạnh của tôi là theo sát sản phẩm từ ý tưởng, triển khai, vận hành, tối ưu cho đến mở rộng.
+        Tôi không chỉ tập trung vào công nghệ, mà quan tâm đến việc công nghệ đó giải quyết vấn đề gì. Từ backend logic chặt chẽ, frontend tinh tế đến hạ tầng chịu tải lớn, mục tiêu cuối cùng của tôi luôn là tạo ra những sản phẩm thực sự hữu ích và bền bỉ theo thời gian.
       </p>
     </div>
 
     <div class="mt-10 grid gap-4 md:grid-cols-3">
       <div class="reveal rounded-lg border border-slate-200 bg-white/[0.78] p-6 dark:border-white/10 dark:bg-white/[0.06]">
-        <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Năng lực backend</p>
-        <h3 class="mt-3 text-xl font-bold">Laravel, API, queue, domain logic</h3>
+        <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Nền tảng Backend</p>
+        <h3 class="mt-3 text-xl font-bold">Kiến trúc vững chãi, quy trình tối ưu</h3>
         <p class="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-          Xây hệ thống có cấu trúc, dễ maintain và có khả năng mở rộng khi nghiệp vụ lớn dần.
+          Xây dựng hệ thống có cấu trúc mạch lạc, dễ bảo trì và luôn sẵn sàng cho việc mở rộng khi nhu cầu kinh doanh tăng trưởng.
         </p>
       </div>
       <div class="reveal rounded-lg border border-slate-200 bg-white/[0.78] p-6 dark:border-white/10 dark:bg-white/[0.06]">
-        <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Tư duy frontend</p>
-        <h3 class="mt-3 text-xl font-bold">Vue, Nuxt, UI workflow</h3>
+        <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Trải nghiệm Frontend</p>
+        <h3 class="mt-3 text-xl font-bold">Giao diện tinh tế, tương tác mượt mà</h3>
         <p class="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-          Biến nghiệp vụ phức tạp thành giao diện rõ ràng, nhanh, responsive và ít ma sát cho người dùng.
+          Chuyển hóa những nghiệp vụ phức tạp thành trải nghiệm đơn giản, tối ưu hiệu suất và giảm thiểu ma sát cho người dùng cuối.
         </p>
       </div>
       <div class="reveal rounded-lg border border-slate-200 bg-white/[0.78] p-6 dark:border-white/10 dark:bg-white/[0.06]">
-        <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Tích hợp AI</p>
-        <h3 class="mt-3 text-xl font-bold">RAG, chatbot, OpenAI</h3>
+        <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Ứng dụng AI thực tiễn</p>
+        <h3 class="mt-3 text-xl font-bold">Thông minh hơn, hiệu quả hơn</h3>
         <p class="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-          Tích hợp AI vào sản phẩm thật, có ngữ cảnh dữ liệu và có giá trị vận hành cụ thể.
+          Không chỉ là tích hợp AI, tôi tập trung vào việc áp dụng RAG và các mô hình ngôn ngữ lớn để tạo ra giá trị thực tế trong vận hành.
         </p>
       </div>
     </div>

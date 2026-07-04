@@ -22,10 +22,10 @@ const metrics = [
           Đỗ Khắc Đệ
         </h1>
         <p class="mt-5 max-w-3xl text-xl font-semibold leading-8 text-slate-800 dark:text-slate-100 sm:text-2xl">
-          Tôi xây dựng, vận hành và mở rộng sản phẩm web/mobile end-to-end.
+          Biến ý tưởng thành sản phẩm thực tế với tư duy hệ thống và khả năng vận hành toàn diện.
         </p>
         <p class="mt-5 max-w-2xl text-base leading-8 text-slate-600 dark:text-slate-300">
-          Chuyên sâu Laravel backend, Vue.js/Nuxt.js frontend, React Native mobile và các hệ thống AI/RAG phục vụ người dùng thật ở quy mô lớn.
+          Tôi tập trung xây dựng các giải pháp Fullstack hiện đại, từ Backend Laravel vững chãi, Frontend Vue.js mượt mà đến các ứng dụng AI/RAG thực tiễn cho người dùng cuối.
         </p>
 
         <div class="mt-9 flex flex-col gap-3 sm:flex-row">

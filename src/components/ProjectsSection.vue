@@ -20,13 +20,13 @@ const projectsWithImages = computed(() =>
     <div class="reveal flex flex-col justify-between gap-6 md:flex-row md:items-end">
       <div>
         <p class="section-kicker">Dự án tiêu biểu</p>
-        <h2 class="section-title">Sản phẩm thật, quy mô thật, trách nhiệm thật.</h2>
+        <h2 class="section-title">Những sản phẩm tôi đã kiến tạo và vận hành.</h2>
         <p class="section-copy">
-          Mỗi dự án bên dưới được đặt đúng thứ tự ưu tiên, tập trung vào vai trò sở hữu sản phẩm, năng lực backend/frontend và kinh nghiệm vận hành hệ thống lớn.
+          Từ những hệ thống thương mại điện tử phức tạp đến các ứng dụng AI hiện đại, mỗi dự án là một lời khẳng định về năng lực giải quyết vấn đề và tư duy tối ưu hóa hiệu suất.
         </p>
       </div>
       <div class="rounded-md border border-slate-200 bg-white/80 px-4 py-3 text-sm font-bold text-slate-700 dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-200">
-        {{ projects.length }} dự án
+        {{ projects.length }} sản phẩm tiêu biểu
       </div>
     </div>
 

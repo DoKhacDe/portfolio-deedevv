@@ -7,9 +7,9 @@ import { Github, Mail, Phone, Send } from 'lucide-vue-next'
     <div class="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
       <div class="reveal">
         <p class="section-kicker">Liên hệ</p>
-        <h2 class="section-title">Trao đổi về sản phẩm, backend hoặc AI workflow.</h2>
+        <h2 class="section-title">Cùng trao đổi về sản phẩm và công nghệ mới.</h2>
         <p class="section-copy">
-          Form này là UI demo. Bạn có thể nối backend, Formspree, EmailJS hoặc API Laravel sau khi deploy.
+          Bạn có ý tưởng mới hay cần một giải pháp kỹ thuật tối ưu? Hãy để lại lời nhắn, tôi sẽ phản hồi sớm nhất có thể.
         </p>
 
         <div class="mt-8 space-y-3">
