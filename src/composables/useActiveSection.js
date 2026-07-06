@@ -6,9 +6,19 @@ export function useActiveSection(sectionIds) {
 
   function updateActiveSection() {
     const activationLine = 120
+    const bottomOffset = 8
     const sections = sectionIds
       .map((id) => document.getElementById(id))
       .filter(Boolean)
+
+    const isNearPageBottom =
+      window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - bottomOffset
+
+    if (isNearPageBottom) {
+      activeSection.value = sections.at(-1)?.id ?? activeSection.value
+      ticking = false
+      return
+    }
 
     const currentSection = sections.reduce((current, section) => {
       const top = section.getBoundingClientRect().top

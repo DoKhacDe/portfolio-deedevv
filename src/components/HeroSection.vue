@@ -25,7 +25,7 @@ const metrics = [
           Biến ý tưởng thành sản phẩm thực tế với tư duy hệ thống và khả năng vận hành toàn diện.
         </p>
         <p class="mt-5 max-w-2xl text-base leading-8 text-slate-600 dark:text-slate-300">
-          Tôi tập trung xây dựng các giải pháp Fullstack hiện đại, từ Backend Laravel vững chãi, Frontend Vue.js mượt mà đến các ứng dụng AI/RAG thực tiễn cho người dùng cuối.
+          Tôi chuyên xây dựng các giải pháp Fullstack hiện tại, kết hợp tối ưu hóa giữa Backend Laravel vững chắc, Frontend Vue.js mượt mà và khả năng tích hợp AI/RAG thực tiễn nhằm mang lại giá trị đột phá cho người dùng cuối.
         </p>
 
         <div class="mt-9 flex flex-col gap-3 sm:flex-row">

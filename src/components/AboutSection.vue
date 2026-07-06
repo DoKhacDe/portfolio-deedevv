@@ -28,23 +28,23 @@ const skills = [
     <div class="mt-10 grid gap-4 md:grid-cols-3">
       <div class="reveal rounded-lg border border-slate-200 bg-white/[0.78] p-6 dark:border-white/10 dark:bg-white/[0.06]">
         <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Nền tảng Backend</p>
-        <h3 class="mt-3 text-xl font-bold">Kiến trúc vững chãi, quy trình tối ưu</h3>
+        <h3 class="mt-3 text-xl font-bold">Kiến trúc bền vững, tối ưu hiệu năng</h3>
         <p class="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-          Xây dựng hệ thống có cấu trúc mạch lạc, dễ bảo trì và luôn sẵn sàng cho việc mở rộng khi nhu cầu kinh doanh tăng trưởng.
+          Thiết kế và phát triển hệ thống backend với cấu trúc mạch lạc, đảm bảo tính đóng gói và dễ bảo trì. Sẵn sàng mở rộng linh hoạt (scalability) để đáp ứng nhu cầu tăng trưởng nhanh chóng của người dùng dữ liệu.
         </p>
       </div>
       <div class="reveal rounded-lg border border-slate-200 bg-white/[0.78] p-6 dark:border-white/10 dark:bg-white/[0.06]">
         <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Trải nghiệm Frontend</p>
-        <h3 class="mt-3 text-xl font-bold">Giao diện tinh tế, tương tác mượt mà</h3>
+        <h3 class="mt-3 text-xl font-bold">Giao diện tinh tế, trải nghiệm mượt mà</h3>
         <p class="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-          Chuyển hóa những nghiệp vụ phức tạp thành trải nghiệm đơn giản, tối ưu hiệu suất và giảm thiểu ma sát cho người dùng cuối.
+          Đơn giản hóa các luồng nghiệp vụ phức tạp thành giao diện trực quan. Tối ưu hóa hiệu suất render (rendering performance) và tốc độ tải trang nhằm giảm thiểu tối đa "ma sát" (friction), mang lại trải nghiệm liền mạch cho người dùng.
         </p>
       </div>
       <div class="reveal rounded-lg border border-slate-200 bg-white/[0.78] p-6 dark:border-white/10 dark:bg-white/[0.06]">
         <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Ứng dụng AI thực tiễn</p>
-        <h3 class="mt-3 text-xl font-bold">Thông minh hơn, hiệu quả hơn</h3>
+        <h3 class="mt-3 text-xl font-bold">Tích hợp AI, tối ưu hóa vận hành</h3>
         <p class="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-          Không chỉ là tích hợp AI, tôi tập trung vào việc áp dụng RAG và các mô hình ngôn ngữ lớn để tạo ra giá trị thực tế trong vận hành.
+          Không dừng lại ở việc gọi API có sẵn, tôi chuyên sâu vào việc ứng dụng kỹ thuật RAG (Retrieval-Augmented Generation) và tinh chỉnh các mô hình ngôn ngữ lớn (LLMs) để giải quyết chính xác các bài toán thực tế của doanh nghiệp.
         </p>
       </div>
     </div>
